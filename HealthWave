@@ -3,34 +3,265 @@
 
 <head>
     <title>my first HTML</title>
-    <meta charset="utf-8"></meta>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- mystylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/landingpage.css">
 </head>
 
-<body style="background-color:powderblue;">
-    <h1>HealthWave2</h1>
-    <hr>
-    <h4>How it work  Point-of-sale Our Blog  Contact Us</h4>
-    <br>
-    <p title="I am a tooltip">
-        The #1 online platform to recommend<br> and sell professional-grade natural health products
-    </p>
-    <p> Join over 8,000 practitioners with a free online dispensary tod</p>
-    <a href="https://dribbble.com/shots/2450284-landing-page/attachments/477304">This is a link</a>
-    <p>
-        <img alt="background" height="639" width="960" src="/users/liule/desktop/IMG_3370.JPG">
-    </p>
-    <pre>LEARN MORE      CREAT YOUR DISPENSARY</pre>
+<body>
+    <!--Section 1 navbar and buttons -->
+    <div class="div1">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        <img id="logo" alt="Brand" src="image/hw-logo.png"></img>
+                    </a>
+                </div>
 
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">How It Work</a></li>
+                        <li><a href="#">Point-Of-Sale</a></li>
+                        <li><a href="#">Our Blog</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><button class="btn btn-lg btn-top">CREAT A DISPENSARY</button></li>
+                        <li>
+                            <button class="btn btn-lg trans btn-top">LOGIN</button>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+        <div class="slogen">
+            <h2><span><strong>The #1 online platform</strong></span> to recommend<br>and sell professional-grade natural health products</h1>
+        </div>
+        <div>
+            <p class="belowslogen">Join over 8,000 practitioners with a free online dispensary tod</p>
+            <p class="belowslogen">
+                <button type="button" class="btn btn-lg trans">LEARN MORE</button>
+                <button type="button" class="btn btn-lg">CREAT YOUR DEISPENSRY</button>
+            </p>
+        </div>
+    </div>
+    <!-- Section 2 slogen and Features -->
+    <div class="cantainer div2">
+      <div class="row">
+        <div class="col-xs-12">
+            <h4 class="focus">Increase patient compliance by 70%</h4></div>
+        <div class="col-xs-12">
+            <h2 class="focus">Focus on patient care, not inventory</h2></div>
+        <div class="col-xs-12">
+            <hr></hr>
+        </div>
+    </div>
+    </div>
+
+    <div class="container">
+        <div class="col-xs-12 col-sm-4 div3">
+            <div class="circle"></div>
+            <strong>Easy & Efficient Prescribing</strong><br></br>
+            Prescribe from over 275 brands, check patients out in-office or online, and produccts are delivered directly to patients within 3 days - guaranteed
+        </div>
+        <div class="col-xs-12 col-sm-4 div3">
+            <div class="circle1"></div>
+            <strong>Convinient Patient Ordering</strong><br></br>
+            Prescribe from over 275 brands, check patients out in-office or online, and produccts are delivered directly to patients within 3 days - guaranteed
+        </div>
+        <div class="col-xs-12 col-sm-4 div3">
+            <div class="circle2"></div>
+            <strong>Speedy Patient Delivery</strong><br></br>
+            Prescribe from over 275 brands, check patients out in-office or online, and produccts are delivered directly to patients within 3 days - guaranteed
+        </div>
+    </div>
+    <div class="cantainer div4">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2>Grow your practice and improve your standard of care.</h2></div>
+            <div class="col-xs-12">
+                <h4>Prescribe from over 275 professional-grade brands.</h4></div>
+        </div>
+    </div>
+    <!-- Section 3 Carousel 1&2 -->
+    <div class="row">
+        <div class="col-xs-4 carousel">
+            <img id="carousel1" src="image/patient-safety2.jpg" alt="">
+        </div>
+        <div class="col-xs-4 carousel">
+            <img id="carousel1" src="image/in-office-checkout.jpg" alt="">
+        </div>
+        <div class="col-xs-4 carousel">
+            <img id="carousel1" src="image/mobile-rx2.jpg" alt="">
+        </div>
+        <!-- <div class="col-xs-4 carousel">
+    <img id="carousel1" src="image/catalog.jpg" alt="">
+  </div> -->
+    </div>
+
+    <div class="cantainer div2">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 class="focus">See what practitioners are saying about HealthWave.</h2></div>
+            <div class="col-xs-12">
+                <h5 class="focus">We’ve helped our healthcare practitioners write over 200,000 prescriptions for their patients.</h5></div>
+        </div>
+    </div>
+
+    <div class="cantainer">
+        <div class="row">
+            <div class="col-xs-12">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <div class="squire1">
+                                <img class="headimage" src="image/avarta.png" alt="">
+                                <h5 class="center"><i><p>"Prescribe from over 275 brands, check patients out in-</p><p>office or online, and produccts are delivered directly to</p> patients within 3 days - guaranteed"</i></h5>
+                                <div class="position">
+                                    <h5 class="center green">Vincent Pedre, MD</h5>
+                                    <h6 class="center">New York, NY</h6>
+                                </div>
+                            </div>
+                            <div class="squire1">
+                                <img class="headimage" src="image/avarta.png" alt="">
+                                <h5 class="center"><i><p>"Prescribe from over 275 brands, check patients out in-</p><p>office or online, and produccts are delivered directly to</p> patients within 3 days - guaranteed"</i></h5>
+                                <div class="position">
+                                    <h5 class="center green">Vincent Pedre, MD</h5>
+                                    <h6 class="center">New York, NY</h6>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="squire1">
+                                <img class="headimage" src="image/avarta.png" alt="">
+                                <h5 class="center"><i><p>"Prescribe from over 275 brands, check patients out in-</p><p>office or online, and produccts are delivered directly to</p> patients within 3 days - guaranteed"</i></h5>
+                                <div class="position">
+                                    <h5 class="center green">Vincent Pedre, MD</h5>
+                                    <h6 class="center">New York, NY</h6>
+                                </div>
+                            </div>
+                            <div class="squire1">
+                                <img class="headimage" src="image/avarta.png" alt="">
+                                <h5 class="center"><i><p>"Prescribe from over 275 brands, check patients out in-</p><p>office or online, and produccts are delivered directly to</p> patients within 3 days - guaranteed"</i></h5>
+                                <div class="position">
+                                    <h5 class="center green">Vincent Pedre, MD</h5>
+                                    <h6 class="center">New York, NY</h6>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="squire1">
+                                <img class="headimage" src="image/avarta.png" alt="">
+                                <h5 class="center"><i><p>"Prescribe from over 275 brands, check patients out in-</p><p>office or online, and produccts are delivered directly to</p> patients within 3 days - guaranteed"</i></h5>
+                                <div class="position">
+                                    <h5 class="center green">Vincent Pedre, MD</h5>
+                                    <h6 class="center">New York, NY</h6>
+                                </div>
+                            </div>
+                            <div class="squire1">
+                                <img class="headimage" src="image/avarta.png" alt="">
+                                <h5 class="center"><i><p>"Prescribe from over 275 brands, check patients out in-</p><p>office or online, and produccts are delivered directly to</p> patients within 3 days - guaranteed"</i></h5>
+                                <div class="position">
+                                    <h5 class="center green">Vincent Pedre, MD</h5>
+                                    <h6 class="center">New York, NY</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="divindicator">
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Section4 -->
+
+    <div class="brand-devider">
+        <img src="image/brand-devider.png" alt="">
+    </div>
+
+    <div class="container">
+        <div class="col-xs-12 brandlogo">
+            <img src="image/brands-copy2.png">
+            <br></br>
+            And over 250 more brands avaliable...
+            <br></br>
+            <!-- <div class="verticalline"></div> -->
+            <div class="mouse"></div>
+        </div>
+    </div>
+    <div class="cantainer div5">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2>Get started with your free HealthWave account!</h2></div>
+            <div class="col-xs-12">
+                <h5>We guarantee you and your patients will love it.</h5></div>
+            <div class="col-xs-12"><button class="btn btn-lg white">CREAT YOUR DISPENSRY</button></div>
+        </div>
+    </div>
+
+    <div class="container-fluid div6">
+        <div class="col-sm-4 col-xs-12">
+            <img id="footerlogo" alt="Brand" src="image/hw-logo-white.png"></img>
+        </div>
+        <div class="col-sm-4 col-xs-12">
+            <ul class="listofsociallink">
+                <li class="sociallink"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+
+                <li class="sociallink"><a href="#"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+
+                <li class="sociallink"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+        <div class="col-sm-4 col-xs-12 div7">
+            <ul>
+                <li><a href="#">How It Work</a></li>
+                <li><a href="#">Point-Of-Sale</a></li>
+                <li><a href="#">Our Blog</a></li>
+            </ul>
+        </div>
+    </div>
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/landingpage.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/8272a60fea.js"></script>
 
-<!-- git status
-git add .
-git commit -m ""
-git log
-git reset --hard _____
-touch ___.html
-cd ..
-cd ___
-ls
-Atom . -->
 </html>
